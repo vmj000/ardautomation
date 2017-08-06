@@ -23,9 +23,9 @@ import org.junit.Assert;
 
 public class OpenGoogle {
   public static void main(String[] args) throws Exception {
-     String expath = "C:\\Users\\velji01\\Downloads\\eclipse-java-kepler-SR1-win32-x86_64\\eclipse\\IEDriverServer\\IEDriverServer.exe";
+     String expath = "C:\\IEDriverServer\\IEDriverServer.exe";
 
-     System.setProperty("webdriver.ie.driver", "C:\\Users\\velji01\\Downloads\\eclipse-java-kepler-SR1-win32-x86_64\\eclipse\\IEDriverServer\\IEDriverServer.exe");
+     System.setProperty("webdriver.ie.driver", "C:\\IEDriverServer\\IEDriverServer.exe");
     // Create an instance of the driver
     WebDriver driver = new InternetExplorerDriver();// Navigate to a web page// Navigate to a web page 
  driver.get("http://www.phptravels.net/account");  // Perform actions on HTML elements, entering text and submitting the form 
